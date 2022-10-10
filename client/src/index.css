@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.14.0/css/all.css');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+input,
+strong,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+@media screen and (max-height: 630px) {
+    html,
+    body {
+        font-size: 80%;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.width0 {
+    width: 0% !important;
+}
+
+.width-peer0 {
+    width: 35% !important;
+}
+
+.width-peer1 {
+    width: 35% !important;
+}
+
+.width-peer2 {
+    width: 30% !important;
+}
+
+.width-peer3 {
+    width: 28% !important;
+}
+
+.width-peer4 {
+    width: 28% !important;
+}
+
+.width-peer5 {
+    width: 28% !important;
+}
+
+.width-peer6 {
+    width: 25% !important;
+}
+
+.width-peer7 {
+    width: 25% !important;
+}
+
+.width-peer8 {
+    width: 25% !important;
+}
+
+.width-peer {
+    width: 20% !important;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.px-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-0 {
+    flex: 0;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.q-body {
+    font-size: 14px;
+    border-bottom-left-radius: 5px;
+    position: relative;
+    width: 320px;
+}
+
+.q-title {
+    color: #232323;
+    background: #f5f5f5;
+    padding: 5px 5px 5px 15px;
+    font-size: 22px;
+}
+
+.q-message-black {
+    position: relative;
+    overflow: auto;
+    /*min-height: 300px;*/
+    height: 89vh;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.q-message-black-hide {
+    height: 0vh;
+    /*transition: all 0.5s ease;*/
+}
+
+
+
+.q-message-black .q-item {
+    color: #f0f0f0;
+    font-size: 16px;
+    border-radius: 8px;
+    word-break: break-all;
+}
+
+
+.q-message-black .message2 {
+    float: left;
+    width: calc(100% - 70px);
+    margin: 5px;
+    background-color: #4ea1d38a;
+    /*border-bottom-color: #4ea1d3;*/
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 12px 5px 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    word-break: break-all;
+}
+
+.q-message-black .message2::before {
+    width: 0;
+    height: 0;
+    content: '';
+    right: -12px;
+    position: absolute;
+    top: calc(50% - 14px);
+    border-left: 14px solid #4ea1d38a;
+    border-bottom: 14px solid transparent;
+    border-top: 14px solid transparent;
+}
+
+.select-green {
+    background: green !important;
+}
+.select-green::before {
+    border-left-color: green !important;
+}
+
+
+.q-message-black .message2:hover {
+    box-shadow: 0px 4px 10px 5px #ff000055;
+    background-color: rgba(92, 133, 151, 0.54);
+}
+
+
+.q-message-black .q-message-sender {
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff;
+}
+
+.q-message-black .q-message-content {
+    margin-top: 3px;
+    line-height: 1.78;
+    color: #fff;
+    font-size: 14px;
+}

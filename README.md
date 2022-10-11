@@ -1,15 +1,15 @@
 ## **WebRTC-based teleconferencing** 
 
-### **URL of our website:** https://videochat-705.herokuapp.com/
+## **URL of our website:** https://videochat-705.herokuapp.com/
 
-## **1. Introduction**
+# **1. Introduction**
 >Project G1 - Group 16
 
 This project is a simple and light-weight teleconferencing service that can be easily accessed through the web browser without any installations. For the research purpose on improvement of user interaction and usability perspective, we added some new features such as post new questions, new question alert, question list, and user list.
 
 Our research question focused on "The impact of question notification of a WebRTC-based video conferencing service in online education". However, we may expand or change this question further in our presentation or final report.
 
-By using our new version and the companion original version of the application, experimenters were able to complete a series of experimental questions about whether the question list feature in the online meetings was effective in improving the user experience of students and teachers during the learning and teaching process.
+By using our new version (https://videochat-705.herokuapp.com/) and the original version (https://video-group-meeting.herokuapp.com/) of the application, experimenters were able to complete a series of experimental questions about whether the question list feature in the online meetings was effective in improving the user experience of students and teachers during the learning and teaching process.
 
 ## **2. Technologies**
 - HTML + JavaScript + CSS

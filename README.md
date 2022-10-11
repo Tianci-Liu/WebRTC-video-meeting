@@ -47,7 +47,7 @@ If the application is not working, please contact tliu204@aucklanduni.ac.nz
 
 ## **5. Testing Locally (Windows, VS Code)**
 **Before running**
-- Download/Clone this project
+- Download/Clone this project to your computer
 - Check Node.js and npm are installed in the terminal
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
@@ -97,4 +97,4 @@ Therefore we changed the research question. Based on the research question, we h
 ## **8. Declaration**
 Open-source code used in this project, licensed under MIT: https://github.com/Hyunse/video-group-meeting
 
-#:sparkling_heart: :sparkling_heart:  Thank you  :sparkling_heart: :sparkling_heart:
+# :sparkling_heart: :sparkling_heart:  Thank you  :sparkling_heart: :sparkling_heart:

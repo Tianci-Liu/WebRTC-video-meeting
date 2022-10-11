@@ -66,7 +66,7 @@ If the application is not working, please contact tliu204@aucklanduni.ac.nz
 ## **5. Testing Locally (Windows, VS Code)**
 **Before running**
 - Download/Clone this project to your computer
-- Check Node.js and npm are installed in the terminal
+- Check Node.js and npm are installed in the terminal: 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
     ```
@@ -117,6 +117,7 @@ In the project plan, our research question was "The impact of innovative pop-up 
 Therefore we changed the research question. Based on the research question, we have implemented an additional question list area. Participants can choose to send questions directly to the question list in the chat box, and if a new question is asked, a "New Question!" message will pop up at the top of the screen (without affecting the video screen), making it easier for the hosts or teachers to notice that a new question has been asked. After the question has been answered, the teacher can tick the box at the end of the question, and the background colour of that question will change from blue to green, and there is also a button to delete the question in the list.
 
 ## **8. Declaration**
-Open-source code used in this project, licensed under MIT: https://github.com/Hyunse/video-group-meeting
+Open-source code used in this project, licensed under MIT: 
+https://github.com/Hyunse/video-group-meeting
 
 # :sparkling_heart: :sparkling_heart:  Thank you  :sparkling_heart: :sparkling_heart:

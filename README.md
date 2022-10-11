@@ -54,13 +54,27 @@ View user list
 Show room name 
 
 ## **4. Deployed Application (Remote)**
-You don't need to complie or install in order to use this application. It is hosted at Heroku: https://videochat-705.herokuapp.com/
+We use Heroku to host our web application:
+https://www.heroku.com/
+
+You do not need to complie or install anything in order to use this application. It is running at: 
+https://videochat-705.herokuapp.com/
 
 If the application is not working, please contact tliu204@aucklanduni.ac.nz
 
-## **5. Testing Locally (Windows)**
+## **5. Testing Locally (Windows, VS Code)**
+**Before running**
+- Download/Clone this project
+- Check Node.js and npm are installed in the terminal
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+    ```
+    node -v
+    npm -v
+    ```
+
 **Client**
-> Move to client folder, update and install this package
+> Open this project using VS Code, then open a terminal, cd to client, then run 
 <pre>
   <code>
     /* Install */
@@ -72,7 +86,7 @@ If the application is not working, please contact tliu204@aucklanduni.ac.nz
 </pre>
 
 **Server**
-> Move to server folder, update and install this package
+> Open a new terminal, cd to server, then run
 <pre>
   <code>
     /* Install */
@@ -82,6 +96,9 @@ If the application is not working, please contact tliu204@aucklanduni.ac.nz
     npm run dev
   </code>
 </pre>
+
+- Go to http://localhost:3000
+- Done!
 
 ## **6. Future Plan**
 UI improvement

@@ -1,8 +1,15 @@
-# **Project G1: WebRTC-based teleconferencing** 
+## **WebRTC-based teleconferencing** 
 
 ### **URL of our website:** https://videochat-705.herokuapp.com/
 
 ## **1. Introduction**
+Project G1 - Group 16
+
+This project is a simple and light-weight teleconferencing service that can be easily accessed through the web browser without any installations. For the research purpose on improvement of user interaction and usability perspective, we added some new features such as post new questions, new question alert, question list, and user list.
+
+Our research question focused on "The impact of question notification of a WebRTC-based video conferencing service in online education". However, we may expand or change this question further in our presentation or final report.
+
+By using our new version and the companion original version of the application, experimenters were able to complete a series of experimental questions about whether the question list feature in the online meetings was effective in improving the user experience of students and teachers during the learning and teaching process.
 
 ## **2. Technologies**
 HTML + JavaScript + CSS
@@ -16,6 +23,8 @@ WebRTC
 Socket.io
 
 ## **3. Features**
+> Features in the original source code
+
 Join/Create room
 
 Multi-participants
@@ -30,17 +39,19 @@ Screen Sharing
 
 Text chat
 
------------------
+> Features that we added
 
-Post new questions
+Post new questions 
 
-New question alert
+New question alert 
 
-View question list
+View question list 
 
-Check/Delete questions
+Check/Delete questions 
 
 View user list
+
+Show room name 
 
 ## **4. Deployed Application (Remote)**
 You don't need to complie or install in order to use this application. It is hosted at Heroku: https://videochat-705.herokuapp.com/
@@ -83,7 +94,7 @@ Mobile compatible
 
 ## **7. Declaration**
 
-
+## **8. Differences**
 
 <br>
 

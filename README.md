@@ -61,7 +61,7 @@ https://www.heroku.com/
 You do not need to complie or install anything in order to use this application. It is running at: 
 https://videochat-705.herokuapp.com/
 
-If the application is not working, please contact tliu204@aucklanduni.ac.nz
+If the application is not working, please contact: tliu204@aucklanduni.ac.nz
 
 ## **5. Testing Locally (Windows, VS Code)**
 **Before running**

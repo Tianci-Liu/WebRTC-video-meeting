@@ -98,4 +98,5 @@ Therefore we changed the research question. Based on the research question, we h
 Open-source code used in this project, licensed under MIT: https://github.com/Hyunse/video-group-meeting
 
 <br>
+
 # :sparkling_heart: :sparkling_heart:  Thank you  :sparkling_heart: :sparkling_heart:

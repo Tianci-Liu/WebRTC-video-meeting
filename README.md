@@ -43,8 +43,34 @@ Check/Delete questions
 View user list
 
 ## **4. Deployed Application (Remote)**
+You don't need to complie or install in order to use this application. It is hosted at Heroku: https://videochat-705.herokuapp.com/
+
+If the application is not working, please contact tliu204@aucklanduni.ac.nz
 
 ## **5. Testing Locally (Windows)**
+**Client**
+> Move to client folder, update and install this package
+<pre>
+  <code>
+    /* Install */
+    npm install
+    
+    /* Run */
+    npm start
+  </code>
+</pre>
+
+**Server**
+> Move to server folder, update and install this package
+<pre>
+  <code>
+    /* Install */
+    npm install
+    
+    /* Run */
+    npm run dev
+  </code>
+</pre>
 
 ## **6. Future Plan**
 UI improvement

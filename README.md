@@ -3,7 +3,7 @@
 ### **URL of our website:** https://videochat-705.herokuapp.com/
 
 ## **1. Introduction**
-Project G1 - Group 16
+>Project G1 - Group 16
 
 This project is a simple and light-weight teleconferencing service that can be easily accessed through the web browser without any installations. For the research purpose on improvement of user interaction and usability perspective, we added some new features such as post new questions, new question alert, question list, and user list.
 
@@ -23,7 +23,7 @@ WebRTC
 Socket.io
 
 ## **3. Features**
-> Features in the original source code
+> Features in the original source code 👇
 
 Join/Create room
 
@@ -39,7 +39,7 @@ Screen Sharing
 
 Text chat
 
-> Features that we added
+> Features that we added 👇
 
 Post new questions 
 

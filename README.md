@@ -12,11 +12,11 @@ Our research question focused on "The impact of question notification of a WebRT
 By using our new version (https://videochat-705.herokuapp.com/) and the original version (https://video-group-meeting.herokuapp.com/) of the application, experimenters were able to complete a series of experimental questions about whether the question list feature in the online meetings was effective in improving the user experience of students and teachers during the learning and teaching process.
 
 **Important:**
-please note that, users need to have a working camera and microphone in order to run this application correctly. Of course, users can mute camera and audio after joining the room.
+please note that, user needs to have a **working camera and microphone** in order to run this application correctly. Of course, users can mute camera and audio after joining the room.
 
->After investigation, we found this bug is due to the original source code (https://github.com/Hyunse/video-group-meeting), the video and audio streams must be available to handle the subsequent tasks, but it used 'navigator.mediaDevices.getUserMedia({ video: true, audio: true })' to get the streams, so if there is no camera and microphone, the subsequent tasks cannot be processed, thus leading to an error. 
+>After investigation, we found this bug is due to the original source code (https://github.com/Hyunse/video-group-meeting), both video and audio streams must be available to handle subsequent tasks. So if there is no camera and microphone, the subsequent tasks cannot be processed, thus leading to an error. 
 
->We did not notice this bug during the developing process, as all group members were using laptop / desktop with camera and microphone. This problem was reported by one of our study participants in an interview session.
+>We did not notice this bug during the development process, as all group members were using laptop / desktop with camera and microphone. This problem was reported by one of our study participants in an interview session.
 
 ## **2. Technologies**
 

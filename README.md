@@ -11,8 +11,8 @@ Our research question focused on "The impact of question notification of a WebRT
 
 By using our new version (https://videochat-705.herokuapp.com/) and the original version (https://video-group-meeting.herokuapp.com/) of the application, experimenters were able to complete a series of experimental questions about whether the question list feature in the online meetings was effective in improving the user experience of students and teachers during the learning and teaching process.
 
-**Important:** 
-Please note that, in order to use this application (online version/local test), user needs to have a working camera and microphone, which means that a desktop computer without a camera and microphone cannot run this application correctly, but normally a laptop computer can run this application without any problems, as it has camera and microphone. Of course, users can mute camera and audio after joining the room.
+**Important:**
+please note that, in order to use this application (online version/local test), user needs to have a working camera and microphone, which means that a desktop computer without a camera and microphone cannot run this application correctly, but normally a laptop computer can run this application without any problems, as it has camera and microphone. Of course, users can mute camera and audio after joining the room.
 
 >After investigation, we found this bug is due to the original source code (https://github.com/Hyunse/video-group-meeting), the video and audio streams must be available to handle the subsequent tasks, but it used 'navigator.mediaDevices.getUserMedia({ video: true, audio: true })' to get the streams, so if there is no camera and microphone, the subsequent tasks cannot be processed, thus leading to an error. 
 
